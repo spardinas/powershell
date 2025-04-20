@@ -10,6 +10,6 @@ ForEach ($server in $servers) {
   } 
  Catch {
   Write-Warning "$_"
-  "$server - Down - $($_)" >> D:\Marejadilla\serverliststatus.txt
+  "$server - Down - $($_)" >> C:\path\to\serverliststatus.txt
   }
  }
